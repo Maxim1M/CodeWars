@@ -17,4 +17,18 @@ function
 function reverseWords(str){
   return str.split(" ").reverse().join(" ") // reverse those words
 }
+
+//
+
+var summation = function (num) {
+  let sum = 0
+    for(let i = 0; i <= num; i++) {
+        sum += i
+    }
+    return sum
+}
+
+//
+
+
  */
