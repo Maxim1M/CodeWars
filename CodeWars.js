@@ -1,6 +1,6 @@
 /*
 
- //
+ // 1
 function even_or_odd(n) {
 
   if(n % 2 === 0) {
@@ -12,13 +12,13 @@ function even_or_odd(n) {
 
 function
 
-//
+// 2
 
 function reverseWords(str){
   return str.split(" ").reverse().join(" ") // reverse those words
 }
 
-//
+// 3
 
 var summation = function (num) {
   let sum = 0
@@ -28,7 +28,7 @@ var summation = function (num) {
     return sum
 }
 
-//
+// 4
 
 function grow(x){
   let result = x[0];
@@ -38,7 +38,7 @@ function grow(x){
   return result;
 }
 
-//
+// 5
 
 function weatherInfo (temp) {
   var c = convertToCelsius(temp);
@@ -51,7 +51,7 @@ function convertToCelsius (temperature) {
   return celsius;
 }
 
-//
+// 6
 
 const arr = N => {
   const arr = [];
@@ -63,7 +63,7 @@ const arr = N => {
   return arr;
 };
 
-//
+// 7
 
 
 
