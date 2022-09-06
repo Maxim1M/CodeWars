@@ -79,5 +79,12 @@ function gooseFilter (birds) {
   return birds.filter((elm) => !geese.includes(elm))// return an array containing all of the strings in the input array except those that match strings in geese
 };
 
+// 9
+
+function enough(cap, on, wait) {
+  return Math.max(wait + on - cap, 0)// your code here
+}
+
 //
+
  */
