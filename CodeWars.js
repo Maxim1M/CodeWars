@@ -71,6 +71,13 @@ function invert(array) {
    });
 }
 
-//
+// 8
 
+function gooseFilter (birds) {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+
+  return birds.filter((elm) => !geese.includes(elm))// return an array containing all of the strings in the input array except those that match strings in geese
+};
+
+//
  */
