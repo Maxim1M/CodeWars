@@ -85,6 +85,12 @@ function enough(cap, on, wait) {
   return Math.max(wait + on - cap, 0)// your code here
 }
 
+// 10
+
+function getAge(inputString){
+   return Number(inputString[0]);
+}
+
 //
 
  */
