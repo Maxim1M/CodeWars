@@ -91,6 +91,13 @@ function getAge(inputString){
    return Number(inputString[0]);
 }
 
+// 11
+
+unction twiceAsOld(dadYearsOld, sonYearsOld) {
+  let twice = dadYearsOld - sonYearsOld * 2;
+  return twice < 0 ? twice * (-1) : twice;
+}
+
 //
 
  */
