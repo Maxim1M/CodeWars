@@ -123,6 +123,12 @@ function getPlanetName(id){
   }
 }
 
+// 13
+
+function removeExclamationMarks(s) {
+  return s.replace(/!$/, '')
+}
+
 //
 
  */
