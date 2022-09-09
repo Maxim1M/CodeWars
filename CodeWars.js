@@ -137,6 +137,18 @@ function paperwork (n , m) {
     return n * m;
 }
 
+// 15
+
+function rentalCarCost(d) {
+  let a = d * 40;
+  if (d >= 7) {
+    return a - 50;
+    } else if (d >= 3) {
+      return a - 20;
+    }
+  return a;
+}
+
 //
 
  */
