@@ -174,5 +174,11 @@ function makeNegative(num) {
 function opposite(number) {
   return -number;
 
+// 19
+
+function solution(str){
+  return str.split("").reverse().join("");
+}
+
 //
  */
