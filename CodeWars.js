@@ -149,6 +149,13 @@ function rentalCarCost(d) {
   return a;
 }
 
+// 16
+
+
+
+
+
+
 //
 
  */
