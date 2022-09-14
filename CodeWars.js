@@ -169,5 +169,10 @@ function makeNegative(num) {
   }
 }
 
+// 18
+
+function opposite(number) {
+  return -number;
+
 //
  */
