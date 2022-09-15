@@ -205,5 +205,11 @@ function removeChar(str){
   return result;
 }
 
-//
+// 23
+
+function noSpace(x){
+  str = x.replace(/\s+/g, '');
+  return str;
+}
+ //
  */
