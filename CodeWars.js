@@ -236,5 +236,17 @@ function squareSum(num){
   return n
 }
 
+// 27
+
+function countSheeps(arrayOfSheep) {
+  let arr = 0;
+  for (let i = 0; i < arrayOfSheep.length; i++) {
+    if (arrayOfSheep[i]) {
+      arr += 1
+    }
+  }
+  return arr
+}
+
 //
  */
