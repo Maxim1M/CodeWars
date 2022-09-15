@@ -211,10 +211,19 @@ function noSpace(x){
   str = x.replace(/\s+/g, '');
   return str;
 }
+
  // 24
 
  function repeatStr (n, s) {
   return s.repeat(n);
+}
+
+// 25
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min(...args);
+  }
 }
 
 //
