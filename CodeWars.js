@@ -191,5 +191,12 @@ function boolToWord( bool ){
   }
 }
 
+// 21
+
+function numberToString(num) {
+  num = String(num);
+  return num;
+}
+
 //
  */
