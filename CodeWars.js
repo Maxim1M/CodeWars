@@ -226,5 +226,15 @@ class SmallestIntegerFinder {
   }
 }
 
+// 26
+
+function squareSum(num){
+  let n = 0;
+  for (let i = 0; i < num.length; i++) {
+    n += num[i] **2
+  }
+  return n
+}
+
 //
  */
