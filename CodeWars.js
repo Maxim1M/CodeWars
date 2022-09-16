@@ -261,5 +261,12 @@ function greet(name){
   return a;
 }
 
+// 30
+
+function litres(time) {
+  var lit = 0.5 * time;
+  return Math.floor(lit);
+}
+
 //
  */
