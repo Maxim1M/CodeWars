@@ -281,5 +281,11 @@ const stringToNumber = function(str){
   return num;
 }
 
+// 33
+
+function maps(x){
+  return x.map((num) => num * 2);
+}
+
 //
  */
