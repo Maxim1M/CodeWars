@@ -268,5 +268,11 @@ function litres(time) {
   return Math.floor(lit);
 }
 
+// 31
+
+function digitize(n) {
+  return Array.from(String(n), Number).reverse();
+}
+
 //
  */
