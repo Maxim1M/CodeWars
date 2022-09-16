@@ -293,5 +293,15 @@ function greet (x) {
    return ("hello world!");
 }
 
+// 35
+
+function past(h, m, s){
+  let hm = h * 3600000;
+  let mm = m * 60000;
+  let sm = s * 1000;
+
+  return hm + mm + sm
+}
+
 //
  */
