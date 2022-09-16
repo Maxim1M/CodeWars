@@ -287,5 +287,11 @@ function maps(x){
   return x.map((num) => num * 2);
 }
 
+// 34
+
+function greet (x) {
+   return ("hello world!");
+}
+
 //
  */
