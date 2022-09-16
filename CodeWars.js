@@ -254,5 +254,12 @@ function century(year) {
   return Math.ceil(year/100);
 }
 
+// 29
+
+function greet(name){
+  var a = "Hello, " + name +  " how are you doing today?";
+  return a;
+}
+
 //
  */
