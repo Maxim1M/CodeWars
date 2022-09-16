@@ -274,5 +274,12 @@ function digitize(n) {
   return Array.from(String(n), Number).reverse();
 }
 
+// 32
+
+const stringToNumber = function(str){
+  let num = Number(str);
+  return num;
+}
+
 //
  */
