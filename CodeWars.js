@@ -303,5 +303,15 @@ function past(h, m, s){
   return hm + mm + sm
 }
 
+// 36
+
+function booleanToString (b){
+  if (b) {
+    return "true";
+  } else{
+    return "false";
+  }
+}
+
 //
  */
