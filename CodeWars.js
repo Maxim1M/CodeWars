@@ -316,8 +316,17 @@ function booleanToString (b){
 // 37
 
 function getCount(str) {
-  const c = str.match(/[aeiou]/gi).length;
-  return c;
+  var vowelsCount = 0;
+
+  var string = str.toString();
+
+  for (var i = 0; i <= string.length - 1; i++) {
+
+    if (string.charAt(i) == "a" || string.charAt(i) == "e" || string.charAt(i) == "i" || string.charAt(i) == "o" || string.charAt(i) == "u") {
+      vowelsCount += 1;
+    }
+  }
+  return vowelsCount;
 }
 
 //
