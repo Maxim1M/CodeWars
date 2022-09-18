@@ -313,5 +313,12 @@ function booleanToString (b){
   }
 }
 
+// 37
+
+function getCount(str) {
+  const c = str.match(/[aeiou]/gi).length;
+  return c;
+}
+
 //
  */
