@@ -329,5 +329,13 @@ function getCount(str) {
   return vowelsCount;
 }
 
+// 38
+
+function disemvowel(str) {
+  var a = str;
+  a = a.replace(/[aeiouAEIOU]/gi, '');
+  return a;
+}
+
 //
  */
