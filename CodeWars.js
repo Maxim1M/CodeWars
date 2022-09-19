@@ -368,5 +368,11 @@ function highAndLow(numbers){
     return maxNum + " " + minNum
 }
 
+// 41
+
+function descendingOrder(n){
+  return parseInt(String(n).split('').sort().reverse().join(''))
+}
+
 //
  */
