@@ -374,5 +374,16 @@ function descendingOrder(n){
   return parseInt(String(n).split('').sort().reverse().join(''))
 }
 
+// 42
+
+var isSquare = function(n){
+  if (Math.sqrt(n) % 1 === 0) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
 //
  */
