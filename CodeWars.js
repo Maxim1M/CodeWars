@@ -397,5 +397,17 @@ function filter_list(l) {
   return newArr;
 }
 
+// 44
+
+function findShort(s){
+  let mas = s.split (' ');
+  let inf = Infinity;
+
+  for (let i = 0; i < mas.length; i++) {
+    inf = Math.min(mas[i].length, inf);
+  }
+  return inf;
+}
+
 //
  */
